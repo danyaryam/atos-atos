@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-container {
+    display: block;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 1000px;
+    height: 900px;
+    margin: 30px auto;
+    padding-top: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card {
+    background: #eb8383;
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    height: 100px;
+    margin: 5px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+}
+
+.card-img {
+    background-color: chartreuse;
+    height: 90px;
+    width: 100px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card-header {
+    background-color: darkkhaki;
+    width: 600px;
+}
+
+.card h2 {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.card p {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.card button {
+    background-color: transparent;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.card button i {
+    font-size: 26px;
+}
+
+.card:hover {
+    background-color: #fca4a4;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s ease;
+    transform: scale(1.03);
+}
+
+.card button:hover {
+    border: 1px solid rgb(51, 117, 95);
+    background-color: rgb(77, 236, 183);
+    color: #000000;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.img-1 {
+    background-image: url(asets/images/foto1.jpg);
+}
+
+.img-2 {
+    background-image: url(asets/images/foto3.jpg);
+}
+
+.img-3 {
+    background-image: url(asets/images/old-man-smoking.jpg);
+}
+
+.img-4 {
+    background-image: url(asets/images/foto1.jpg);
+}
+
+.img-5 {
+    background-image: url(asets/images/foto3.jpg);
+}
+
+.img-6 {
+    background-image: url(asets/images/old-man-smoking.jpg);
+}
+
+
+.read-more-container {
+    width: 70%;
+    /* max-width: 600px; */
+    height: auto;
+    border-radius: 15px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(13px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.read-more-container button {
+    background-color: transparent;
+    display: block;
+    margin: 0 13px 20px auto;
+    font-size: 30px;
+    color: #141414;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.header-read-more {
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: chartreuse; */
+    /* padding: 5px; */
+}
+
+.contaoner-box-read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fca4a4; */
+}
+
+.read-more-img {
+    background-color: #9b9b9b;
+    width: 300px;
+    height: 360px;
+    margin: 30px 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(155, 155, 155, 0.678);
+}  
+
+.read-more-img1 {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.read-more-profile {
+    margin: 40px 50px 40px 60px;
+}
+.read-more-profile td {
+    font-size: larger;
+    color: #ffffff;
+}
